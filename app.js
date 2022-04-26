@@ -1,6 +1,5 @@
 const express = require('express')
 const app = express()
-console.log('process.env.port = ' + process.env.port)
 const port = process.env.PORT || 3000
 const host = process.env.HOST || 'localhost'
 
